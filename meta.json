@@ -10,7 +10,7 @@
   "first_run": "",
   "build": {
     "build": "conan build . --build missing",
-    "setup": "conan graph explain . --build missing",
+    "setup": "",
     "path": "build/Release/module.tar.gz",
     "arch": [
       "linux/arm64"
