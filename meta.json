@@ -10,7 +10,7 @@
   "first_run": "",
   "build": {
     "build": "conan build . --build missing",
-    "setup": "conan install --requires zlib/1.3.1 && conan graph explain --requires 'grpc/1.72.0' -o 'grpc/*:shared=False'",
+    "setup": "conan install --requires zlib/1.3.1 --build missing && conan graph explain --requires 'grpc/1.72.0' -o 'grpc/*:shared=False'",
     "path": "build/Release/module.tar.gz",
     "arch": [
       "linux/arm64"
