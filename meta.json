@@ -1,0 +1,23 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "my-ns:sensors",
+  "visibility": "public_unlisted",
+  "url": "",
+  "description": "Modular sensor component: mysensor",
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "bin/sensors",
+  "first_run": "",
+  "build": {
+    "build": "conan build . --build missing",
+    "setup": "",
+    "path": "build/Release/module.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64",
+      "darwin/arm64",
+      "windows/amd64"
+    ],
+    "distro": "bookworm"
+  }
+}
