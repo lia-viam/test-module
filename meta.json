@@ -10,7 +10,7 @@
   "first_run": "",
   "build": {
     "build": "conan build . --build missing -s:a compiler.cppstd=17",
-    "setup": "conan graph explain . --build missing -s:a compiler.cppstd=17",
+    "setup": "",
     "path": "build/Release/module.tar.gz",
     "arch": [
       "linux/arm64"
