@@ -1,0 +1,20 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "my-ns:sensors2",
+  "visibility": "public_unlisted",
+  "url": "https://github.com/lia-viam/test-module",
+  "description": "Modular sensor component: mysensor",
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "bin/sensors2",
+  "first_run": "",
+  "build": {
+    "build": "conan build . --build missing -s:a compiler.cppstd=17",
+    "setup": "",
+    "path": "build/Release/module.tar.gz",
+    "arch": [
+      "linux/arm64"
+    ],
+    "distro": "bookworm"
+  }
+}
