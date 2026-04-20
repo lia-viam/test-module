@@ -25,7 +25,7 @@ os=Linux
 tools.build:compiler_executables={"c": "clang-15", "cpp": "clang++-15"}
 
 [options]
-boost/*:without_cobalt:True
+boost/*:without_cobalt=True
 
 ' > ~/.conan2/profiles/default
 
