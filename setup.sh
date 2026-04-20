@@ -19,7 +19,12 @@ compiler=clang
 compiler.cppstd=20
 compiler.libcxx=libstdc++11
 compiler.version=15
-os=Linux' > ~/.conan2/profiles/default
+os=Linux
+
+[conf]
+tools.build:compiler_executables={'c': 'clang-15', 'cpp': 'clang++-15' }
+
+' > ~/.conan2/profiles/default
 
 conan profile show
 
