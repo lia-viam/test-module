@@ -9,8 +9,8 @@
   "entrypoint": "bin/bullseye-test",
   "first_run": "",
   "build": {
-    "build": "conan build . --build missing -s:a compiler.cppstd=17 --lockfile-partial",
-    "setup": "",
+    "build": "conan build . --build missing -s:a compiler.cppstd=20 --lockfile-partial",
+    "setup": "setup.sh",
     "path": "build/Release/module.tar.gz",
     "arch": [
       "linux/arm64"
