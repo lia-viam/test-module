@@ -6,7 +6,7 @@
 #include <viam/sdk/config/resource.hpp>
 #include <viam/sdk/module/service.hpp>
 
-namespace bullseye-test {
+namespace bullseye_test {
 
 
 class Bseye : public viam::sdk::Sensor {

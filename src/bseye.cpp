@@ -3,7 +3,7 @@
 
 #include <stdexcept>
 
-namespace bullseye-test {
+namespace bullseye_test {
 
 
 Bseye::Bseye(const viam::sdk::Dependencies& deps, const viam::sdk::ResourceConfig& cfg)
