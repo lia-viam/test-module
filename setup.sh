@@ -17,7 +17,7 @@ arch=armv8
 build_type=Release
 compiler=clang
 compiler.cppstd=20
-compiler.libcxx=libstdc++11
+compiler.libcxx=libc++
 compiler.version=15
 os=Linux
 
