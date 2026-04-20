@@ -22,7 +22,7 @@ compiler.version=15
 os=Linux
 
 [conf]
-tools.build:compiler_executables={'c': 'clang-15', 'cpp': 'clang++-15'}
+tools.build:compiler_executables={"c": "clang-15", "cpp": "clang++-15"}
 
 ' > ~/.conan2/profiles/default
 
