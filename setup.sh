@@ -9,7 +9,7 @@ apt-add-repository -y 'deb https://archive.debian.org/debian bullseye-backports 
 
 apt-get update
 
-apt-get -y --no-install-recommends install -t llvm-toolchain-bullseye-15 \
+apt-get -y install -t llvm-toolchain-bullseye-15 \
     clang-15 libc++-15-dev
 
 echo '[settings]
