@@ -1,4 +1,8 @@
-apt install -y software-properties-common
+set -e
+
+apt-get update
+apt-get install -y software-properties-common
+
 bash -c 'wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|apt-key add -'
 apt-add-repository -y 'deb http://apt.llvm.org/bullseye/ llvm-toolchain-bullseye-15 main'
 apt-add-repository -y 'deb https://archive.debian.org/debian bullseye-backports main'
