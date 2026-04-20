@@ -1,0 +1,19 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "my-ns:bullseye-test",
+  "visibility": "public_unlisted",
+  "url": "",
+  "description": "Modular sensor component: bseye",
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "bin/bullseye-test",
+  "first_run": "",
+  "build": {
+    "build": "conan build . --build missing -s:a compiler.cppstd=17 --lockfile-partial",
+    "setup": "",
+    "path": "build/Release/module.tar.gz",
+    "arch": [
+      "linux/arm64"
+    ]
+  }
+}
