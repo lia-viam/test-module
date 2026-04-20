@@ -27,9 +27,9 @@ int main(int argc, char** argv) try {
         viam::sdk::API::get<viam::sdk::Sensor>(),
         model,
         [](viam::sdk::Dependencies deps, viam::sdk::ResourceConfig cfg) {
-            return std::make_unique<bullseye-test::Bseye>(deps, cfg);
+            return std::make_unique<bullseye_test::Bseye>(deps, cfg);
         },
-        &bullseye-test::Bseye::validate);
+        &bullseye_test::Bseye::validate);
 
 
 
