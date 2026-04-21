@@ -24,6 +24,9 @@ os=Linux
 [conf]
 tools.build:compiler_executables={"c": "clang-15", "cpp": "clang++-15"}
 
+[buildenv]
+LD_LIBRARY_PATH+=/usr/lib/llvm-15/lib
+
 [options]
 boost/*:without_cobalt=True
 
