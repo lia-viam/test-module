@@ -10,7 +10,7 @@ apt-add-repository -y 'deb https://archive.debian.org/debian bullseye-backports 
 apt-get update
 
 apt-get -y install -t llvm-toolchain-bullseye-15 \
-    clang-15 libc++-15-dev
+    clang-15 libc++-15-dev libc++abi-15-dev
 
 echo '[settings]
 arch=armv8
