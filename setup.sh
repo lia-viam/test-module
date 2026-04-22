@@ -13,7 +13,7 @@ apt-get -y install -t llvm-toolchain-bullseye-19 \
     clang-19
 
 echo '[settings]
-arch=armv8
+arch={{detect_api.detect_arch()}}
 build_type=Release
 compiler=clang
 compiler.cppstd=20
