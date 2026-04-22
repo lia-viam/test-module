@@ -31,3 +31,5 @@ boost/*:without_cobalt=True
 
 conan profile show
 
+cmake --version
+

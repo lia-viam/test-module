@@ -13,7 +13,6 @@
     "setup": "./setup.sh",
     "path": "build/Release/module.tar.gz",
     "arch": [
-      "linux/arm64",
       "linux/amd64"
     ]
   }
