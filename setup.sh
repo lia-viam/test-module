@@ -16,7 +16,7 @@ echo '[settings]
 arch={{detect_api.detect_arch()}}
 build_type=Release
 compiler=clang
-compiler.cppstd=20
+compiler.cppstd=17
 compiler.libcxx=libc++
 compiler.version=19
 os=Linux
