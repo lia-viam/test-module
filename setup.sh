@@ -30,8 +30,6 @@ tools.build:sharedlinkflags+=["-static-libstdc++"]
 LD_LIBRARY_PATH+=/usr/lib/llvm-19/lib
 
 [options]
-boost/*:without_cobalt=True
-
 ' > ~/.conan2/profiles/default
 
 conan profile show
