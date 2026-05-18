@@ -42,4 +42,4 @@ class BullseyeTestRecipe(ConanFile):
         cmake.install()
 
     def requirements(self):
-        self.requires("viam-cpp-sdk/0.34.0")
+        self.requires("viam-cpp-sdk/0.35.0")
